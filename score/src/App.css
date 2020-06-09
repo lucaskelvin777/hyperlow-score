@@ -1,0 +1,37 @@
+.container{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.bloco-principal{
+  max-width: 900px;
+  min-width: 350px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-row{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.form-row *{
+  margin-left:5px;
+  margin-right:5px; 
+  margin-top: 5px !important;
+  
+}
+
+.paginacao-bloco{
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+}
+.bloco{
+  max-width: 900px;
+  background-color:#f2f2f2;
+  padding:20px;
+  border-radius: 4px;
+  margin-bottom:10px;
+  margin-top:10px;
+}

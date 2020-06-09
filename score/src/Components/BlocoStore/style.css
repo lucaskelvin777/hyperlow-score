@@ -1,0 +1,12 @@
+.bloco-store{
+  width: 200px;
+  padding:5px;
+  margin:5px 5px;
+  border-radius: 4px;
+  background-color: #eee;
+  align-self: center;
+}
+.bloco-store .titulo{
+  font-weight: bold;
+  text-align: center;
+}
